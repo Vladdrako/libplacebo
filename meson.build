@@ -12,10 +12,9 @@ project('libplacebo', ['c', 'cpp'],
     5,
     # API version
     {
-      '213': 'add pl_opengl_params.get_proc_addr',
-      '212': 'add pl_opengl.major/minor version numbers',
-      '211': 'add pl_opengl.extensions and pl_opengl_has_ext',
-      '210': 'add PL_HANDLE_MTL_TEX, PL_HANDLE_IOSURFACE, and pl_shared_mem.plane',
+      '212': 'add pl_opengl_params.get_proc_addr',
+      '211': 'add pl_opengl.major/minor version numbers',
+      '210': 'add pl_opengl.extensions and pl_opengl_has_ext',
       '209': 'add pl_gpu_limits.array_size_constants',
       '208': 'add pl_filter_function.name and pl_filter_config.name',
       '207': 'add pl_render_params.plane_upscaler and plane_downscaler',
